@@ -3,10 +3,6 @@
 using namespace std;
 
 
-
-
-
-
 void euro (float x)
 {
    cout<<"Twoja kwota w Euro: "<<x*4,2638;
