@@ -5,12 +5,12 @@ using namespace std;
 
 void euro (float x)
 {
-   cout<<"Twoja kwota w Euro: "<<x*4,2638;
+   cout<<"Twoja kwota w Euro: "<<x/4,2638;
 }
 
 void dolar (float y)
 {
-   cout<<"Twoja kwota w Dolarach Amerykanskich: "<<y*3,8625;
+   cout<<"Twoja kwota w Dolarach Amerykanskich: "<<y/3,8625;
 }
 
 
