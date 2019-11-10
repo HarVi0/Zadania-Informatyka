@@ -16,6 +16,8 @@ int main()
     if (dzielnik== 0 )
         {
             cout<<"Nie dziel przez zero!";
+
+            return 0;
         }
 
     if (liczba1%dzielnik== 0 )
@@ -24,7 +26,18 @@ int main()
         }
     else
         {
-            cout<<"Twoja liczba nie jest podzielna przez: "<<dzielnik;
+            cout<<"Twoja liczba nie jest podzielna przez "<<dzielnik;
         }
+
+    if(liczba1 % 2 == 0)
+    {
+        cout<<" oraz jest parzysta";
+    }
+    else
+    {
+        cout<<" oraz jest nieparzysta";
+    }
+
+
     return 0;
 }
