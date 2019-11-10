@@ -11,7 +11,7 @@ int main()
 
 
     cout<<"1. Polski"<<endl;
-    cout<<"2. Angileski"<<endl;
+    cout<<"2. Angielski"<<endl;
     cout<<"3. Oba"<<endl;
 
 
