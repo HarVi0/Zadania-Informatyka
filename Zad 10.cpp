@@ -1,30 +1,41 @@
 #include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 
 using namespace std;
 
 
-void euro (float x)
+float euro (float x)
 {
-   cout<<"Twoja kwota po przeliczeniu na Euro: "<<x/4,28;
+  return x/4.29;
 }
 
-void dolar (float y)
+float dolar (float d)
 {
-   cout<<"Twoja kwota po przeliczeniu na Dolary Amerykanskie: "<<y/3,88;
+   return d/3.88;
 }
 
+ float zl;
 
 int main()
 {
-    float zl;
     int waluta;
+    float  kurs_d, kurs_e;
+    bool i = true;
+    string data;
 
 
+    data =  " 18. 11. 2019";
+    kurs_d = 3.88;
+    kurs_e = 4.29;
 
-      
-     
-   
-     cout<<"Podaj kwote w zlotowkach: ";
+
+    while( i = true )
+
+    {
+
+
+    cout<<"Podaj kwote w zlotowkach: ";
     cin>>zl;
     cout<<endl;
 
@@ -40,41 +51,50 @@ int main()
     {
         case 1:
             cout<<endl;
-            cout<<"Kurs Dolara Amerykanskiego na dzien 18.11.2019: 3,88"<<endl;
+            cout<<"Kurs Dolara Amerykanskiego na dzien" << data<<": " <<kurs_d<<endl;
             cout<<endl;
-            dolar(zl);
+            cout<<"Twoja kwota po przeliczeniu na Dolary Amerykanskie: "<<dolar(zl);
             cout<<endl;
-
         break;
 
         case 2:
             cout<<endl;
-            cout<<"Kurs Euro na dzien 18.11.2019: 4,28 "<<endl;
+            cout<<"Kurs Euro na dzien "<<data<<" :" <<kurs_e<<endl;
             cout<<endl;
-            euro(zl);
+            cout<<"Twoja kwota po przeliczeniu na Euro :"<<euro(zl);
             cout<<endl;
-            
         break;
 
         case 3:
             cout<<endl;
-            cout<<"Kurs Dolara Amerykanskiego na dzien 18.11.2019: 3,88"<<endl;
-            cout<<"Kurs Euro na dzien 18.11.2019: 4,28 "<<endl;
+            cout<<"Kurs Dolara Amerykanskiego na dzien"<< data <<": " <<kurs_d<<endl;
+            cout<<"Kurs Euro na dzien "<<data<<": "<<kurs_e<<endl;
             cout<<endl;
-            dolar(zl);
+            cout<<"Twoja kwota po przeliczeniu na Dolary Amerykanskie: "<<dolar(zl);
             cout<<endl;
-            euro(zl);
+            cout<<"Twoja kwota po przeliczeniu na Euro :"<<euro(zl);
             cout<<endl;
-            
+
+
         break;
 
 
         default:
             cout<<"Nie ma takiej opcji!";
-            
         break;
+
     }
- 
+
+
+        cout<<endl<<"Nacisnij ENTER aby przeliczyc ponownie!";
+        getchar();
+        getchar();
+
+        system("cls");
+
+
+    }
+
 
 
    return 0;
