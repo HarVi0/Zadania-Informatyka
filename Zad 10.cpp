@@ -5,12 +5,12 @@ using namespace std;
 
 void euro (float x)
 {
-   cout<<"Twoja kwota po przeliczeniu na Euro: "<<x/4,2638;
+   cout<<"Twoja kwota po przeliczeniu na Euro: "<<x/4,28;
 }
 
 void dolar (float y)
 {
-   cout<<"Twoja kwota po przeliczeniu na Dolary Amerykanskie: "<<y/3,8625;
+   cout<<"Twoja kwota po przeliczeniu na Dolary Amerykanskie: "<<y/3,88;
 }
 
 
@@ -37,7 +37,7 @@ int main()
     {
         case 1:
             cout<<endl;
-            cout<<"Kurs Dolara Amerykanskiego na dzien 9.11.2019: 3,8625"<<endl;
+            cout<<"Kurs Dolara Amerykanskiego na dzien 18.11.2019: 3,88"<<endl;
             cout<<endl;
             dolar(zl);
             cout<<endl;
@@ -45,7 +45,7 @@ int main()
 
         case 2:
             cout<<endl;
-            cout<<"Kurs Euro na dzien 9.11.2019: 4,2638 "<<endl;
+            cout<<"Kurs Euro na dzien 18.11.2019: 4,28 "<<endl;
             cout<<endl;
             euro(zl);
             cout<<endl;
@@ -53,8 +53,8 @@ int main()
 
         case 3:
             cout<<endl;
-            cout<<"Kurs Dolara Amerykanskiego na dzien 9.11.2019: 3,8625"<<endl;
-            cout<<"Kurs Euro na dzien 9.11.2019: 4,2638 "<<endl;
+            cout<<"Kurs Dolara Amerykanskiego na dzien 18.11.2019: 3,88"<<endl;
+            cout<<"Kurs Euro na dzien 18.11.2019: 4,28 "<<endl;
             cout<<endl;
             dolar(zl);
             cout<<endl;
