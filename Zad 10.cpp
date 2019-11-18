@@ -21,7 +21,10 @@ int main()
 
 
 
-    cout<<"Podaj kwote w zlotowkach: ";
+      for(;;) 
+     {
+   
+     cout<<"Podaj kwote w zlotowkach: ";
     cin>>zl;
     cout<<endl;
 
@@ -41,6 +44,10 @@ int main()
             cout<<endl;
             dolar(zl);
             cout<<endl;
+           cout << "Wcisnij enter aby ponownie przeliczyc walute" << endl;
+        getchar();
+        getchar();
+
         break;
 
         case 2:
@@ -49,6 +56,9 @@ int main()
             cout<<endl;
             euro(zl);
             cout<<endl;
+            cout << "Wcisnij enter aby ponownie przeliczyc walute" << endl;
+        getchar();
+        getchar();
         break;
 
         case 3:
@@ -60,13 +70,20 @@ int main()
             cout<<endl;
             euro(zl);
             cout<<endl;
+            cout << "Wcisnij enter aby ponownie przeliczyc walute" << endl;
+            getchar();
+            getchar();
         break;
 
 
         default:
             cout<<"Nie ma takiej opcji!";
+            cout << "Wcisnij enter aby ponownie przeliczyc walute" << endl;
+            getchar();
+            getchar();
         break;
     }
+} 
 
 
    return 0;
