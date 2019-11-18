@@ -5,9 +5,9 @@
 using namespace std;
 
 
-float euro (float x)
+float euro (float e)
 {
-  return x/4.29;
+  return e/4.29;
 }
 
 float dolar (float d)
