@@ -29,9 +29,9 @@ float kwadrat(float a)
 
 int main()
 {
- bool i=1;
+ bool i=true;
 
-    while(i=1)
+    while(i=true)
     {
 
     cout << "==============" << endl;
@@ -62,7 +62,7 @@ int main()
                cout<<endl;
                cout<<endl;
 
-            i=1;
+            i=true;
 
         break;
 
@@ -79,7 +79,7 @@ int main()
                cout<<endl;
                cout<<endl;
 
-               i=1;
+               i=true;
 
 
         break;
@@ -97,7 +97,7 @@ int main()
           cout<<endl;
           cout<<endl;
 
-           i=1;
+           i=true;
 
         break;
 
@@ -111,14 +111,14 @@ int main()
             cout<<endl;
             cout<<endl;
 
-               i=1;
+               i=true;
         break;
 
         default:
             cout<<"Nie ma takiej opcji w menu !!! :) ";
             cout<<endl;
 
-               i=1;
+               i=true;
         break;
 
     }
